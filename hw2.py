@@ -1,0 +1,5 @@
+number = int(input('Please enter a four-digit integer: '))
+print(number//1000)
+print((number//100)%10)
+print((number//10)%10)
+print(number%10)
